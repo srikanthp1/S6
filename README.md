@@ -94,6 +94,7 @@ E2 = ½ * (t2 - a_o2)²
 * made sure RF is more than 32*32 
 * used 7*7 RF for 1st block 
 * used 1x1 aggregators and less channels for improving accuracy with less number of channels 
+* two architectures are trained 2nd one has best accuracy. because of the use of more layers. here go increasing accuracy. 
 
 
 [**NetworkRF**](https://github.com/srikanthp1/S6/blob/main/S6b.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/srikanthp1/S6/blob/main/S6b.ipynb)
