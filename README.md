@@ -89,6 +89,9 @@ E2 = ½ * (t2 - a_o2)²
              ReLU-20           [-1, 30, 14, 14]               0
 
 ```
+
+* I used nn.sequensial module to define each block of convulution 
+* followed the architecture discussed but with limited channels 
 * made sure RF is more than 32*32 
 * used 7*7 RF for 1st block 
 * used 1x1 aggregators and less channels for improving accuracy with less number of channels 
